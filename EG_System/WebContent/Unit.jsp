@@ -39,6 +39,7 @@
 	<br>
 	<input id="btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary">
 	<input type="hidden" id="hidUnitIDSave" name="hidUnitIDSave" value="">
+	
 </form>
 <br>
 <div id="alertSuccess" class="alert alert-success"></div>
@@ -46,6 +47,7 @@
 
 <br>
 <div id="divUnitsGrid">
+	
 	 <%
 	 	Unit units = new Unit();
 	 	out.print(units.readUnits());
